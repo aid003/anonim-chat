@@ -9,7 +9,7 @@ import icon from "../images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("http://37.46.131.161/:5041");
+const socket = io.connect("http://37.46.131.161:5041/");
 
 const Chat = () => {
   const { search } = useLocation();
