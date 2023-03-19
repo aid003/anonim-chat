@@ -153,18 +153,20 @@
 950px) {
   .wrap{
     width:30%;
-    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 2px;
   
   }
 
 }
+
 @media  only screen and  (max-width:
-680px) {
+576px ) {
   .wrap{
     width: 24%;
+
     padding: 0  ;
     display: flex;
     justify-content: center;
@@ -173,13 +175,29 @@
     word-wrap: break-word;
     box-sizing: border-box;
     padding: 0 2px;
-    
-    
-        
-    
-    
-
-  
   }
-
 }
+
+
+
+
+
+@media  only screen and  (max-width:
+370px ) {
+  .wrap{
+    width: 20%;
+
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 0 2px;
+  }
+}
+
+
+
+
