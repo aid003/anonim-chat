@@ -9,7 +9,7 @@ import icon from "../images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("https://[2001:1bb0:e000:1e::568]");
+const socket = io.connect("https://becalmandready.ru/");
 
 const Chat = () => {
   const { search } = useLocation();
