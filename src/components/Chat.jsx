@@ -9,7 +9,7 @@ import icon from "../images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("http://ovz1.j05708658.m397m.vps.myjino.ru:49170");
+const socket = io.connect("https://[2001:1bb0:e000:1e::568]:49170");
 
 const Chat = () => {
   const { search } = useLocation();
